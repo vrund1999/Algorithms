@@ -1,3 +1,11 @@
+# Time complexity: 
+#   Best:   Big Omega(n)
+#   Avg:    Big Theta(n^2)
+#   Worst:  O(n^2)
+
+# Space Complexity
+#   Worst: O(1)
+
 def insertionSort(list):
     for i in range(1, len(list)):
         j = i - 1
